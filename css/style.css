@@ -817,6 +817,9 @@ a {
   border: 1px solid #212121;
   border-radius: 2px;
   margin-right: 8.38px;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox:checked + .icon-check {
   background-image: url(../img/icon-check.svg);
