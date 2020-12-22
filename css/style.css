@@ -494,7 +494,8 @@ footer .social-links a {
   display: block;
 }
 .footer-form {
-  margin-left: 93px;
+  margin-left: auto;
+  margin-right: 0;
 }
 .footer-form label {
   display: inline-block;
@@ -764,7 +765,8 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form .modal-input:hover {
+.modal-form .modal-input:hover,
+.modal-form .modal-input:focus {
   border: 1px solid #2196f3;
   cursor: pointer;
 }
@@ -792,7 +794,8 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-field:hover .input-icon {
+.form-field:hover .input-icon,
+.form-field:focus-within .input-icon {
   fill: #2196f3;
 }
 .checkbox {
